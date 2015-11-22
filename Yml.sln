@@ -1,0 +1,41 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.23107.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{DAB9396C-38E4-4FF4-88E3-A1AC0B61ADD2}"
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "PipeCI.Yml", "src\PipeCI.Yml\PipeCI.Yml.xproj", "{DECDC6A0-FC7E-4E07-9C22-7A9572525824}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{0D6A31AD-0185-41D8-92EE-7EF2E2AD9BE8}"
+	ProjectSection(SolutionItems) = preProject
+		.gitignore = .gitignore
+		.travis.yml = .travis.yml
+		appveyor.yml = appveyor.yml
+		build.cmd = build.cmd
+		build.sh = build.sh
+		global.json = global.json
+		LICENSE = LICENSE
+		makefile.shade = makefile.shade
+		NuGet.Config = NuGet.Config
+		README.md = README.md
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DECDC6A0-FC7E-4E07-9C22-7A9572525824}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DECDC6A0-FC7E-4E07-9C22-7A9572525824}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DECDC6A0-FC7E-4E07-9C22-7A9572525824}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DECDC6A0-FC7E-4E07-9C22-7A9572525824}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{DECDC6A0-FC7E-4E07-9C22-7A9572525824} = {DAB9396C-38E4-4FF4-88E3-A1AC0B61ADD2}
+	EndGlobalSection
+EndGlobal
